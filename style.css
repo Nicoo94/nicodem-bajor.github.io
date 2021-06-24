@@ -1,0 +1,309 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Open Sans;
+}
+
+nav{
+	width: 100%;
+	height:100%;
+	background-color: #293133;
+	font-family: Open Sans;
+	position: sticky;
+}
+
+nav ul{
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+.table li{
+	list-style-type: none;
+	float: right;
+
+}
+.table2 li{
+	list-style-type: none;
+	float: left;
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 25px;
+	color: white;
+}
+.menu0:hover{
+	border-top: 5px solid #20436b;
+	background-color:rgba(171, 194, 219, 0.15);
+}
+.menu1:hover{
+	border-top: 5px solid #20436b;
+	background-color:rgba(171, 194, 219, 0.15);
+
+}
+.menu2:hover{
+	border-top: 5px solid #20436b;
+	background-color:rgba(171, 194, 219, 0.15);
+}
+.menu3:hover{
+	border-top: 5px solid #20436b;
+	background-color:rgba(171, 194, 219, 0.15);
+}
+.menu4:hover{
+	border-top: 5px solid #20436b;
+	background-color:rgba(171, 194, 219, 0.15);
+}
+.menu5:hover{
+	border-top: 5px solid #20436b;
+	background-color:rgba(171, 194, 219, 0.15);
+}
+.menu6:hover{
+	border-top: 5px solid #20436b;
+	background-color:rgba(171, 194, 219, 0.15);
+}
+nav li:hover a{
+	padding: 15px 30px 20px 20px;
+}
+
+#fond1{
+	background-image: url('fond2.jpg');
+	width: 100%;
+	height:700px;
+	background-repeat: no-repeat;
+   	background-attachment: fixed;
+ 	background-size: cover;
+ 	background-position : center center;
+ 	display: table;
+ 	text-align: center;
+ 	padding-top: 59px;
+ 	font-family: Open Sans;
+ 	font-size: 30px;
+
+ }
+ #Bleu
+	{
+		background-image: url(Bleu.jpg);
+		scroll-behavior: auto;
+		background-size: cover;
+		width: 100%;
+		text-align: left;
+		padding-bottom: 100px;
+		padding-top: 40px;
+	}
+
+
+#Bleu div{
+	display: inline-block;
+	width: 49%;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: Open Sans;
+	vertical-align: text-top;
+}
+
+.gauche h2,p{
+	margin-top: 40px;
+	margin-left: 35%;
+	margin-right: 35%;
+	color: white;
+}
+
+.droite h2,p{
+	margin-top: 40px;
+	margin-left: 34%;
+	margin-right: 30%;
+	color: white;
+}
+#fond3{
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+#fond3 h2{
+	margin-bottom: 10px;
+	text-align: center;
+}
+#fond4{
+
+	background-image: url(Bleu.jpg);
+		scroll-behavior: auto;
+		background-size: cover;
+		width: 100%;
+		padding-bottom: 50px;
+		color: white;;
+}
+#fond4 h2{
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 35px;
+}
+#fond4 p{
+	margin-left: 10px;
+
+}
+#fond4 div{
+
+	margin-top: -3%;
+}
+#fond5{
+	width: 100%;
+	font-weight: normal;
+	overflow-x: hidden;
+}
+#fond5 h2{
+	text-align: center;
+}
+#fond5 div{
+	width: 49%;
+	display: inline-block;
+	vertical-align: text-top;
+	margin-top: 90px;
+	margin-bottom: 100px;
+}
+.oliva{
+	text-align: center;
+
+}
+.oliva img{
+		max-width: 100%;
+		height: auto;
+		margin-left: 10%;
+	margin-right: 10%;
+	border: 1px solid;
+	border-color: black;
+}
+.text5{
+
+}
+.text5 p{
+	color: black;
+	margin-top: 50px;
+	text-align: left;
+	margin-left: 10%;
+	margin-right: 25%;
+	font-size: 20px;
+}
+.text5 a{
+	text-decoration: none;
+}
+h1{
+	text-align: center;
+	color: #293133
+}
+#footpage{
+	background-image: url(Bleu.jpg);
+	width: 100%;
+	font-family: system-ui;
+	height: 100%;
+	padding-bottom: 70px;
+}
+#footpage div{
+	display: inline-block;
+	vertical-align: text-top;
+	height: 100%;
+
+}
+#footpage h2{
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: white;
+}
+
+.contact{
+	width: 42%;
+	color: white;
+
+}
+
+.contact img{
+	width: 48px;
+	height: 48px;
+	vertical-align: middle;
+	text-align: left;
+}
+.contact h4{
+	padding-top: 60px;
+  font-size: 20px;
+  margin-left: 20px;
+
+}
+.carte{
+	margin-left: 140px;
+
+}
+.text1{
+	font-size: 20px;
+	text-align: center;
+	margin-right: 100px;
+	margin-left: 100px;
+	color: #293133;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.flex { display: -webkit-flex; display: flex; -webkit-flex-direction: row;  flex-direction: row; -webkit-justify-content: flex-start; justify-content: flex-start;}
+
+.slider-wrapper div {position: relative;}
+.slider-wrapper {margin-top: 5vw;  margin-left: 11vw;}
+.slide-image {height: 24vw;}
+.slide-image img {width: 24vw; cursor: pointer;}
+.slide-content {width: 25vw; padding:3vw 18vw 3vw 9vw;}
+.slide-date { font-size: 1.1vw; font-weight: 400; letter-spacing: 0.1vw; padding-bottom: 1.4vw;}
+.slide-title {font-size: 1.2vw; font-weight: 400; letter-spacing: 0.1vw; line-height: 1.55vw; padding-bottom: 1.8vw;}
+.slide-text {font-size: 0.80vw; line-height: 1.2vw; opacity: 0.8; padding-bottom: 4vw;}
+.slide-more {font-weight: 400; letter-spacing: 0.1vw; float: left; font-size: 0.9vw;}
+.slide-bullet {width: 0.5vw; height: 0.5vw; border-radius: 200%; position: relative; margin-left: 1.2vw;}
+.slide-nav {margin-left: 64vw; margin-top: -5.5vw;}
+
+
+.arrows{
+	width: 3.5vw;
+	margin-top: -5.8vw; /*Ressert la page*/
+	margin-bottom: 10vw;
+	margin-left: 72vw; 
+	position: relative;
+}
+.arrow {
+	display: inline-block; 
+	position: absolute; 
+	width: 1.2vw; 
+	height: 1.2vw; 
+	background: transparent; 
+	text-indent: -9999px; 
+	border-top: 0.15vw solid #293133; 
+	border-left: 0.15vw solid #293133; 
+	transition: all .1s ease-in-out; 
+	text-decoration: none; 
+	color: transparent;
+}
+.arrow:hover {border-width: 0.25vw;
+}
+.arrow:before {display: block; height: 200%; width: 200%; margin-left: -50%; margin-top: -50%; content: ""; transform: rotate(45deg);}
+.arrow.prev {transform: rotate(-45deg); left: 0;}
+.arrow.next {transform: rotate(135deg); right: 0;} 
+				
+
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  padding-right: 10px;
+  color: white; /* White text color */
+}
+.container {
+  width: 70%; /* Full width */
+  margin-left: 15%;
+  margin-bottom: 80px;
+  background-color: #ddd; /* Grey background */
+}
+.html {width: 60%;  background-color: #de020a;} /* Green */
+.css {width: 50%; background-color: #1fa102;} /* Blue */
+.js {width: 15%; background-color: #00c2bb;} /* Red */
+.php {width: 40%; background-color: #d47502;} /* Dark Grey */
+.log {width: 70%; background-color: #636363;} /* yellow */
+
+
+
+
+
